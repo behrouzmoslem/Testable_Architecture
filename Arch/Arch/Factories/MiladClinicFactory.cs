@@ -7,6 +7,10 @@ namespace Arch.Factories
     {
         private IMiladLaboratoryFactory laboratoryFactory;
 
+        public MiladClinicFactory()
+        {
+        }
+
         public MiladClinicFactory(IMiladLaboratoryFactory laboratoryFactory)
         {
             this.laboratoryFactory = laboratoryFactory;
